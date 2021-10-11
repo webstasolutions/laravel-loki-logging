@@ -1,7 +1,6 @@
-<?php
+<?php declare(strict_types=1);
 
-namespace Devcake\LaravelLokiLogging;
-
+namespace Websta\LaravelLokiLogging;
 
 use Monolog\Handler\HandlerInterface;
 
@@ -16,6 +15,10 @@ class L3Logger implements HandlerInterface
     /** @var string */
     private $format;
 
+    /**
+     * @param string $format
+     * @param array $context
+     */
     public function __construct(string $format = '[{level_name}] {message}', array $context = [])
     {
         $this->format = config('l3.format');
