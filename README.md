@@ -1,5 +1,6 @@
 # Laravel Loki Logging
-_Logging to Loki for Laravel_
+_Logging to Loki for Laravel_  
+_Fork https://github.com/rdemorais/laravel-loki-logging_
 
 ## Usage
 1. Install this package: `composer require devcake-deventer/laravel-loki-logging`
